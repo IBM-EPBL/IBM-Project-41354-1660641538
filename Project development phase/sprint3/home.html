@@ -1,0 +1,71 @@
+<html>
+<html lang="en">
+<head>
+<title>News Tracker</title>
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='newstyle.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='font/css/all.min.css')}}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+</head>
+<body>
+<div class="News">
+<header>
+<div class="logo">
+<pre style="font-size:20px ; font-family:Times New Romon; ">News Tracker 
+</pre>
+</div>
+<div class="search-box">
+<i class="fa-solid fa-magnifying-glass"></i>
+<input type="search" placeholder="Search">
+</div>
+<nav>
+<ul>
+<li><a href="/Home"><i class="fa-regular fa-address-card"></i>  Home</a></li>
+<li><a href="/Local"><i class="fa-regular fa-address-card"></i>  Local</a></li>
+<li><a href="/Coronavirus"><i class="fa-regular fa-address-card"></i>  Coronavirus</a></li>
+<li><a href="/about1" ><i class="fa fa-edit"></i>aboutus </a></li>
+<li><a href="/register1" ><i class="fa fa-edit"></i> Register</a></li>
+<li><a href="/login1" ><i class="fa fa-edit"></i> login</a></li>
+<ul>
+</nav>
+</header>
+<section> 
+<div class="posts">
+<div class="post-title">
+<div class="post-left">
+<div class="image">
+</div>
+<center>
+<div>
+<div class="details">
+<p class="name">The Hindu</p>
+<p class="location">Tamil Nadu</p>
+</div></center>
+<div class="post-right">
+<i class="fa-solid fa-ellipsis"></i>
+</div>
+<div class="post-content">
+<center><img src="{{url_for('static',filename='image/news2.webp')}}" style="width:600; height:600;"></center>
+</div>
+<div class="post-footer">
+<div class="like-share-comment">
+<i class="fa-regular fa-heart"></i>
+<i class="fa-regular fa-comment"></i>
+<i class="fa-solid fa-share"></i>
+</div>
+<div class="save">
+<i class="fa-solid fa-bookmark"></i>
+</div>
+<div class="post-footer-content">
+<p class="likes">100likes</p>
+<p class="comments">view all 10 comments</p>
+<p class="posting-time">23 hours ago</p>
+</div>
+<div class="add-comment">
+<div class="left-side">
+<i class="fa-regular fa-face-smile"></i>
+<input type="text" placeholder="Add a commant.....">
+</div>
+
+
+</body>
+</html>
